@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    /* height: 100vh; */
+    background-color: rgb(56, 53, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+}
+main
+{
+    /* height: 80vh; */
+    width: 60%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 6% 2%;
+}
+h1
+{
+    font-size: 5vh;
+}
+form{
+    padding: 2%;
+}
+.options{
+    font-size: 4vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.box1{
+   width: 10%; 
+   padding-right: 1%;
+   margin-right: 1%;
+}
+.box2{
+    width: 88%; 
+}
+button
+{
+    font-size: 4vh;
+    background-color: greenyellow;
+    color: rgb(244, 27, 183);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+input[type="radio"]{
+    height: 4vh;
+    width: 4vh; 
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width:768px)
+{
+    main{
+        width: 100%;
+    }
+}
