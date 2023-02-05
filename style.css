@@ -24,6 +24,7 @@ main
 h1
 {
     font-size: 4vh;
+    text-align: center;
 }
 form{
     padding: 2%;
